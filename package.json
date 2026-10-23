@@ -10,7 +10,7 @@
     "build:frontend": "npm run build --prefix frontend",
     "build": "npm run build --prefix frontend",
     "start": "npm start --prefix backend",
-    "test": "npx --prefix frontend vitest run"
+    "test": "npm test --prefix frontend"
   },
   "keywords": [
     "ecommerce",
