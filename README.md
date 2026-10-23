@@ -15,8 +15,7 @@ A production-ready, full-stack Amazon-inspired e-commerce web application engine
 
 ## 🌟 Live Demo
 
-> 🔗 **Live Application URL:** *[Deploy on Render / Railway to add your live URL here]*  
-> *(e.g., `https://ecommerce-fullstack-demo.onrender.com`)*
+> 🔗 **Live Application:** [https://ecommerce-fullstack-s0di.onrender.com](https://ecommerce-fullstack-s0di.onrender.com)
 
 ---
 
@@ -188,22 +187,6 @@ npm run build
 npm start
 ```
 Open `http://localhost:3000` to view the full application served directly by Express.
-
----
-
-## 🌐 Deploy to Render (Free Web Service)
-
-Since the Express backend is pre-configured to serve both the REST API and the compiled React `dist/` directory, you can deploy the complete full-stack app as a single service on **Render**:
-
-1. Push this repository to GitHub.
-2. Sign in to [Render](https://render.com) and click **"New +"** > **"Web Service"**.
-3. Select your `ecommerce-fullstack` repository.
-4. Set the following configuration:
-   - **Environment:** `Node`
-   - **Build Command:** `npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend`
-   - **Start Command:** `node backend/server.js`
-5. Click **"Create Web Service"**.
-   Render will build the frontend, seed the SQLite database, and launch the application on a live HTTPS URL.
 
 ---
 
