@@ -1,0 +1,10 @@
+.not-found-text{
+    color: rgb(123, 107, 107);
+    margin-top: 7rem;
+    font-size: 1.5rem;
+}
+.page-not-found-wrapper{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
